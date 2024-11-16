@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+/* Profile Section */
+.profile {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin-bottom: 0%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+.profile-photo {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 4px solid #4A90E2; 
+    margin: 1% 0px 0px 40px;
+}
+
+/* Divisions Styling (work) */
+.experience {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2835081e;
+    padding: 1%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    font-size: 18px; 
+}
+/* Education Section */
+.education {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8d10c; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    font-size: 18px; 
+}
+
+/* Relevant Skills*/
+.skills{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #062bff2e; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.755);
+    font-size: 18px; 
+}
+
+/* Relevant Skills*/
+.achievements {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 184, 5); 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.755);
+    font-size: 18px; 
+}
+
+/* Social Media Section Styling */
+.social-media {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+/* Social Media Icons */
+.social-media .social-icon {
+    width: 50px;  /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the icon scales proportionally */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    margin-bottom: 15px;
+}
+
+/* Hover Effects on Icons */
+.social-media .social-icon:hover {
+    transform: scale(2.5); /* Slightly enlarge the icon on hover */
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #3333336b; /* Dark background for the footer */
+    color: #fff;  /* White text color */
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styling for Contact Button */
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a82e2; /* Blue background */
+    color: rgb(27, 4, 4);  /* White text */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+</style>
+
+  <!-- MAIN BODY -->
+
+<body>
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="Files/my photo copy.jpeg" alt="Your Photo" class="profile-photo"
+                    <div class="personal-info">
+                        <h3> Vincent Manlapaz | Project Manager</strong> </h3>
+                        <p class="contact-info"> Email: <a href="https://mail.google.com/mail" target="_blank"> vince@seo.com </a>                   
+                     | Phone: 0917-123-6630 | Location: Taguig
+                </div>
+   
+<!-- Work Experience Division -->
+        <div class="experience">
+     <h2> Work Experiences</h2>
+    <ul>
+        <li> Project Manager </li>
+        <li> SEO Consultant </li>
+        <li> Customer Success </li>
+        <li> Suport Engineer </li>
+    </ul>
+    </div>
+
+<!-- Relevant Skills -->
+    <div class="section skills">
+    <h2>Relevant Skills</h2>
+    <ul>
+        <li> Project Management </li>
+        <li> Problem Solving </li>
+        <li> Customer Success </li>
+        <li> Customer Support </li>
+        <li> Executive High-level Business Review  </li>
+        <li> Account Management </li>
+        <li> Content Writing </li>
+        <li> Data Analysis </li>
+    </ul>
+    </div>
+    </div>
+
+    <!-- Education Division -->
+    <div class="section education">
+    <h2>Education</h2>
+    <ul>
+        <li>Degree - Computer Programming (2003 - 2005) </li>
+        <li>Degree - BSED, Major in English (Undergraduate) </li>
+    </ul>
+</div>
+
+<!-- Achievements -->
+    <div class="section achievements">
+    <h2>Achievements</h2>
+    <ul>
+        <li> President Award, Customer Success </li>
+        <li> President Award, Account Management </li>
+        <li> Best QBR Presentation </li>
+    </ul>
+    </div>
+    
+<!-- Social Media Section -->
+    <div class="social-media">
+    <h2> Connect with Me</h2>
+<a href="https://www.linkedin.com/" target="_blank"> <img src="Files/LinkedIn.png" class="social-icon"></a>
+<a href="https://www.facebook.com/" target="_blank"> <img src="Files/FB.webp" class="social-icon"> </a>
+<a href="https://github.com/" target="_blank"> <img src="Files/Github.svg" class="social-icon"> </a>
+</div>
+
+<!-- Footer Section -->
+    <footer class="footer">
+    <div class="footer-content">
+        <p>&copy;2024 Vincent Manlapaz. All Rights Reserved.</p> 
+        <!-- Updated Contact as Button -->
+        <a href="https://mail.google.com/mail" class="contact-btn"> Email Me </a>
+    </div>
+</footer>
+
+</body>
+</html>
